@@ -1,7 +1,25 @@
 .primary {
-  color: #a0ce4e;
+  color: #a0ce4e !important;
 }
 
 .primary-bg {
   background: #a0ce4e;
+}
+
+body {
+  position: relative;
+}
+
+.navbar {
+  box-shadow: 0 0 3px #b5b5b5;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+  color: #a0ce4e
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: 200;
+  padding: 0;
 }
