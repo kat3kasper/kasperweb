@@ -7,6 +7,7 @@
 }
 
 body {
+  padding-top: 58px;
   position: relative;
 }
 
@@ -22,4 +23,37 @@ body {
   font-size: 1.75rem;
   font-weight: 200;
   padding: 0;
+}
+
+/* For parallax */
+body, html {
+    height: 100%;
+}
+
+.jumbotron {
+  /* The image used */
+  background-image: url(../img/pexels-photo-169573-50g.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
 }
