@@ -6,7 +6,12 @@
   background: #a0ce4e;
 }
 
+.bg-gray {
+  background: #f4f4f4;
+}
+
 body {
+  color: #787878;
   padding-top: 58px;
   position: relative;
 }
