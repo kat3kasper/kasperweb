@@ -62,3 +62,34 @@ body, html {
   font-size: 3rem;
   font-weight: 300;
 }
+
+#testimonial {
+  background: #f8f9f9;
+  padding: 80px 0;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #dce1e2;
+}
+
+.testimonial-quote {
+  color: #424242;
+  font-size: 1.25rem;
+}
+
+.testimonial-author {
+  font-size: .75rem;
+}
+
+.carousel-content {
+  max-width: 70%; /* 100% - 2(width of carousel-control-*) */
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+  color: #585858;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #585858;
+    opacity: 0.8;
+}
