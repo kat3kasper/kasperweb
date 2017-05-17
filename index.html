@@ -84,13 +84,7 @@
       <h1 class="primary">Portfolio</h1>
       <h1 class="primary">Portfolio</h1>
     </div>
-    <div id="contact">
-      <h1 class="primary">Contact</h1>
-      <h1 class="primary">Contact</h1>
-      <h1 class="primary">Contact</h1>
-      <h1 class="primary">Contact</h1>
-      <h1 class="primary">Contact</h1>
-    </div>
+
 
     <!-- How we work START -->
     <div id="process" class="container">
@@ -182,6 +176,53 @@
       </div>
     </div>
     <!-- Testimonial END -->
+
+    <!-- Contact START -->
+    <div id="contact" class="container">
+      <div class="row align-items-center">
+        <div class="col-sm">
+          <form action="https://formspree.io/info@kasperweb.com" method="POST">
+            <div class="form-group">
+              <label for="nameInput">Full Name*</label>
+              <input type="text" name="name" class="form-control" id="nameInput" required>
+            </div>
+            <div class="form-group">
+              <label for="emailInput">Email address*</label>
+              <input type="email" name="_replyto" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="messageTextarea">Message*</label>
+              <textarea name="message" class="form-control" id="messageTextarea" rows="3" required placeholder="Hi Kasper Web! I need a new web project. Can you help me out?"></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="Question for Kasper Web!" />
+            <button type="submit" class="btn primary-bg white">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+          </form>
+        </div>
+        <div class="col-sm text-center">
+          <div class="company-name">Kasper Web</div>
+          <div class="contact-method">
+            <a href="mailto:info@kasperweb.com">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-fw fa-stack-1x fa-inverse"></i>
+              </span
+              <span>info@kasperweb.com</span>
+            </a>
+          </div>
+          <div class="contact-method">
+            <a href="tel:19737224747">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-phone fa-fw fa-stack-1x fa-inverse"></i>
+              </span
+              <span>+1(973)-722-4747</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact END -->
 
     <footer class="text-center bg-gray">
       <div class="container">
