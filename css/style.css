@@ -141,9 +141,8 @@ body, html {
 .accordion-card-header a.collapsed .accordion-card-icon:before{
   content: "\f067";
 }
-
-.accordion-card-block {
-
-}
-
 /*Accordian END*/
+
+.card-img-top {
+  max-width: 100%
+}
