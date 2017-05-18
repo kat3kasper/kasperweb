@@ -21,7 +21,12 @@
 body {
   color: #787878;
   padding-top: 58px;
+}
+
+.scroll-wrapper{
   position: relative;
+  overflow-y: scroll;
+  height: 100%
 }
 
 a {
