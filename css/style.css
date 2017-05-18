@@ -38,6 +38,11 @@ label {
   margin-bottom: 0;
 }
 
+.hr-2 {
+  border-top: 2px solid #a0ce4e;
+  width: 20%;
+}
+
 .navbar {
   box-shadow: 0 0 3px #b5b5b5;
 }
@@ -54,7 +59,7 @@ label {
 
 /* For parallax */
 body, html {
-    height: 100%;
+  height: 100%;
 }
 
 .jumbotron {
