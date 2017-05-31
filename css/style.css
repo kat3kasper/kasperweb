@@ -43,6 +43,10 @@ label {
   margin-bottom: 0;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .hr-2 {
   border-top: 2px solid #a0ce4e;
   width: 20%;

@@ -158,29 +158,80 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/checkmate_inbox.png" alt="Card image cap">
+            <img class="card-img-top cursor" src="img/checkmate_inbox_edit.png" alt="Card image cap" data-toggle="modal" data-target="#portfolioCheckmateModal">
             <div class="card-block">
-              <h4 class="card-title">Checkmate</h4>
+              <a href="http://www.checkmate.io/" class="card-title h4 primary" target="_blank">Checkmate</a>
               <p class="card-text"><small class="text-muted">Ruby on Rails, Ember.JS, Javascript, HTML, CSS/SASS</small></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/ballstreet_thumb_g.png" alt="Card image cap" style="padding-top: 6px;">
+            <img class="card-img-top cursor" src="img/ballstreet_thumb_g.png" alt="Card image cap" style="padding-top: 6px;" data-toggle="modal" data-target="#portfolioBSTModal">
             <div class="card-block">
-              <h4 class="card-title">Ballstreet Trading</h4>
+              <a href="https://www.ballstreettrading.com/" class="card-title h4 primary" target="_blank">Ballstreet Trading</a>
               <p class="card-text"><small class="text-muted">React, Redux, Typescript, HTML, CSS/SASS</small></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/flights_thumb_g.png" alt="Card image cap" style="padding-top: 6px;">
+            <img class="card-img-top cursor" src="img/flights_thumb_g.png" alt="Card image cap" style="padding-top: 6px;" data-toggle="modal" data-target="#portfolioFlightsModal">
             <div class="card-block">
-              <h4 class="card-title">Personal Blog</h4>
+              <a href="https://flights-hikes-and-motorbikes.com/" class="h4 card-title primary" target="_blank">Flights Hikes and Motorbikes</a>
               <p class="card-text"><small class="text-muted">Node.js</small></p>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkmate Modal -->
+    <div class="modal fade" id="portfolioCheckmateModal" tabindex="-1" role="dialog" aria-labelledby="portfolioCheckmateModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a href="http://www.checkmate.io/" class="modal-title h5 primary" id="portfolioCheckmateModalLabel" target="_blank">Checkmate</a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid" src="img/checkmate_inbox_edit.png" alt="Checkmate Website">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BallStreet Modal -->
+    <div class="modal fade" id="portfolioBSTModal" tabindex="-1" role="dialog" aria-labelledby="portfolioBSTModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a href="https://www.ballstreettrading.com/" class="modal-title h5 primary" id="portfolioBSTModalLabel" target="_blank">BallStreet Trading</a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid" src="img/ballstreet_thumb.png" alt="Blog Website">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FlightsHikesAndMotorbikes Modal -->
+    <div class="modal fade" id="portfolioFlightsModal" tabindex="-1" role="dialog" aria-labelledby="portfolioFlightsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a href="https://flights-hikes-and-motorbikes.com/" class="modal-title h5 primary" id="portfolioFlightsModalLabel" target="_blank">Flights Hikes and Motorbikes</a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid" src="img/flights_thumb.png" alt="Blog Website">
           </div>
         </div>
       </div>
